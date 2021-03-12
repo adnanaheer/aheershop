@@ -1,21 +1,21 @@
-// Slider Style START 
-.custon-nav{
-    height: 60px;
-    width: 40px;
-    cursor: pointer;
-  
-    vertical-align: middle;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+// Slider Style START
+.custon-nav {
+  height: 60px;
+  width: 40px;
+  cursor: pointer;
+
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 //   .prev-icon-custom{
 //     background: url(https://freakyjolly.com/demo/jquery/OwlCarousel2/nav-icon.png) no-repeat scroll 0px 0px;
 //   }
-  .prev-icon-custom.disabled{
-    opacity: 0.4;
-    cursor: default;
-  }
+.prev-icon-custom.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
 //   .next-icon-custom{
 //       background: url(https://freakyjolly.com/demo/jquery/OwlCarousel2/nav-icon.png) no-repeat scroll -32px 0px;
 //     }
@@ -28,13 +28,73 @@
 //         height: 100%;
 //     }
 //   }
-  
-  .slide-text{
-    position: absolute;
-    color: black;
-    bottom: 30px;
-    font-size: 20px;
-    font-weight: 600;
+
+.slide-text {
+  position: absolute;
+  color: black;
+  bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+// Slider Style STOP
+
+
+
+
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    text-align: center;
   }
-  
-  // Slider Style STOP
+  .btn {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 610px;
+    left: 153px;
+    ion-button {
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}
+
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    text-align: center;
+  }
+  .btn3 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 950px;
+    left: 153px;
+    ion-button {
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}
+
+.sec4 {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    text-align: center;
+  }
+  .btn4 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1300px;
+    left: 153px;
+    ion-button {
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}
