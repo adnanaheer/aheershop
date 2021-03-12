@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { SliderComponent } from './slider.component';
+import { HomeViewComponent } from './home-view.component';
 
-describe('SliderComponent', () => {
-  let component: SliderComponent;
-  let fixture: ComponentFixture<SliderComponent>;
+describe('HomeViewComponent', () => {
+  let component: HomeViewComponent;
+  let fixture: ComponentFixture<HomeViewComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ SliderComponent ],
+      declarations: [ HomeViewComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(SliderComponent);
+    fixture = TestBed.createComponent(HomeViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

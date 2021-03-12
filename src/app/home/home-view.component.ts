@@ -2,11 +2,11 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { IonSlides } from '@ionic/angular';
 
 @Component({
-  selector: 'app-slider',
-  templateUrl: './slider.component.html',
-  styleUrls: ['./slider.component.scss'],
+  selector: 'app-home-view',
+  templateUrl: './home-view.component.html',
+  styleUrls: ['./home-view.component.scss'],
 })
-export class SliderComponent implements OnInit {
+export class HomeViewComponent implements OnInit {
 
   // @ViewChild('slides', { static: true }) slides: IonSlides;
   @ViewChild('slideWithNav', { static: false }) slideWithNav: IonSlides;
