@@ -52,19 +52,24 @@ export class SliderComponent implements OnInit {
       isEndSlide: false,
       slidesItems: [
         {
-          name: 'AdnanAheer 1'
+          name: 'AdnanAheer 1',
+          URL: '../../assets/image/slide1.jpg'
         },
         {
-          name: 'AdnanAheer 2'
+          name: 'AdnanAheer 2',
+          URL: '../../assets/image/slide2.jpg'
         },
         {
-          name: 'AdnanAheer 3'
+          name: 'AdnanAheer 3',
+          URL: '../../assets/image/slide3.jpg'
         },
         {
-          name: 'AdnanAheer 4'
+          name: 'AdnanAheer 4',
+          URL: '../../assets/image/slide4.jpg'
         },
         {
-          name: 'AdnanAheer 5'
+          name: 'AdnanAheer 5',
+          URL: '../../assets/image/slide5.jpg'
         }
       ]
     };
