@@ -1,4 +1,4 @@
-<ion-header class="ion-no-border">
+<ion-header class="ion-no-border" *ngIf="!router.url.includes('login') && !router.url.includes('register')">
   <ion-toolbar class="new-background-color">
     <ion-buttons slot="secondary">
       <ion-button (click)="openFirst()">
@@ -21,7 +21,7 @@
 </ion-header>
 
 
-<ion-menu side="start" menuId="first" contentId="main">
+<ion-menu side="start" menuId="first" contentId="main" *ngIf="!router.url.includes('login')">
   <ion-header class="center">
     <ion-toolbar class="new-background-color">
       <ion-title>Menu</ion-title>
@@ -49,7 +49,8 @@
         <ion-icon name="people"></ion-icon>
         <ion-label>About Us</ion-label>
       </ion-item>
-      <ion-item class="ion-no-padding" href="https://www.techiediaries.com/ionic-ui-forms-theming/">
+      <!-- href="https://www.techiediaries.com/ionic-ui-forms-theming/" -->
+      <ion-item class="ion-no-padding" routerLink="/auth/login">
         <ion-icon name="person-circle-outline"></ion-icon>
         <ion-label>Log In</ion-label>
       </ion-item>
