@@ -10,7 +10,7 @@
     </ion-buttons>
     <ion-title><span class="title">AHEER</span></ion-title>
     <ion-buttons slot="primary">
-      <ion-button>
+      <ion-button (click)="openDropdown()">
         <ion-icon class="icon" slot="icon-only" name="person"></ion-icon>
       </ion-button>
       <ion-button>
@@ -19,6 +19,32 @@
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
+
+<!-- profile dropdown  -->
+<ion-menu side="end" menuId="custom" contentId="main" class="my-custom-menu">
+  <ion-header>
+    <ion-toolbar class="new-background-color">
+      <ion-title>My Account</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item class="ion-no-padding crosicon">
+        <ion-icon name="close"></ion-icon>
+      </ion-item>
+      <ion-item class="ion-no-padding">
+        <ion-label>My Profile</ion-label>
+      </ion-item>
+      <ion-item class="ion-no-padding">
+        <ion-label>Setting</ion-label>
+      </ion-item>
+      <ion-item class="ion-no-padding">
+        <ion-label>Log Out</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<!-- profile dropdown  -->
 
 
 <ion-menu side="start" menuId="first" contentId="main" *ngIf="!router.url.includes('login')">
@@ -48,15 +74,6 @@
       <ion-item class="ion-no-padding">
         <ion-icon name="people"></ion-icon>
         <ion-label>About Us</ion-label>
-      </ion-item>
-      <!-- href="https://www.techiediaries.com/ionic-ui-forms-theming/" -->
-      <ion-item class="ion-no-padding" routerLink="/auth/login">
-        <ion-icon name="person-circle-outline"></ion-icon>
-        <ion-label>Log In</ion-label>
-      </ion-item>
-      <ion-item class="ion-no-padding">
-        <ion-icon name="person-add"></ion-icon>
-        <ion-label>Sign Up</ion-label>
       </ion-item>
     </ion-list>
   </ion-content>
