@@ -1,10 +1,37 @@
-ion-item{
-    --background: #3880ff;
-    --color: #fff;
+
+.h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+    color: rgb(196, 0, 39);
 }
-ion-button{
-    --background: #062f77;
+.h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(51, 39, 39);
+    text-align: center;
+    margin-bottom: 50px;
 }
-a{
-    color: #fff;
+ion-item {
+    margin: 30px;
+    border: 1px solid rgb(196, 0, 39);
+    border-radius: 50px;
+    box-shadow: none;
+    font-weight: 600;
+}
+.btn {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.register{
+    margin-top: 50px;
+    text-align: center;
+    a{
+        font-size: 20px;
+        text-decoration: none;
+    }
 }
