@@ -26,4 +26,8 @@ export class HeaderComponent implements OnInit {
     this.menu.enable(true, 'custom');
     this.menu.open('custom');
   }
+  openDropdown() {
+    this.menu.enable(true, 'custom');
+    this.menu.open('custom');
+  }
 }
